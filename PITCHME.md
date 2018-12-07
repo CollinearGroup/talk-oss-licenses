@@ -6,10 +6,10 @@
 ![](assets/img/major_monkey.jpeg)
 
 ---
-@snap[west]
+@snap[west span-50]
 # Some text.
 @snapend
 
-@snap[east]
+@snap[east span-50]
 # Some text.
 @snapend
