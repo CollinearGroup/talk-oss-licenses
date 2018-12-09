@@ -17,7 +17,7 @@
 
 ### Topics
 
-* How did we get here?
+* How we got here
 * What you need to know
 * Existing tools and shortcomings
 * Our solution
@@ -27,7 +27,7 @@
 
 ### Topics
 
-* **How did we get here?**
+* **How we got here**
 * What you need to know
 * Existing tools and shortcomings
 * Our solution
@@ -67,7 +67,7 @@ In step 3 and 4, the lawyers and leaders have typically done the hard part for y
 
 ### Topics
 
-* How did we get here?
+* How we got here
 * **What you need to know**
 * Existing tools and shortcomings
 * Our solution
@@ -75,7 +75,7 @@ In step 3 and 4, the lawyers and leaders have typically done the hard part for y
 
 +++
 
-* [`choosealicense.com`](https://choosealicense.com/)
+[`choosealicense.com`](https://choosealicense.com/)
 
 Note:
 
@@ -93,7 +93,7 @@ I'm starting to question if this is worth mentioning...
 
 +++
 
-```
+```md
 # DON'T BE A DICK PUBLIC LICENSE
 
 > Version 1.1, December 2016
@@ -131,7 +131,7 @@ Note:
 
 ### Topics
 
-* How did we get here?
+* How we got here
 * What you need to know
 * **Existing tools and shortcomings**
 * Our solution
