@@ -124,8 +124,9 @@ Our OSS Strategy has to deal with all these licenses.
 Note:
 
 * CLA - Ensures that the repo maintainer gets the rights over contributions.
-* Commons Clause - prohibts turning around and selling software like AWS did with Redis.
+* Commons Clause - prohibits turning around and selling software like AWS did with Redis.
 * Google banned the GPL and CC'd licenses.
+* MongoDB was AGPL but just became even more restrictive.
 
 ---
 
@@ -133,19 +134,35 @@ Note:
 
 * How we got here
 * What you need to know
-* **Existing tools and shortcomings**
-* Our solution
+* **Existing tools**
 * How can OSS and the Enterprise Coexist?
 
 +++
 
 ### license-checker
-> TBD
+> Demo
 
+Note:
 
-+++
+* --summary
+* --onlyunknown
+* A great tool, but I think we can improve on it.
+  * 
+
++++ 
 
 ### license-validator
-> us
+> Demo
 
 [yea](https://github.com/CollinearGroup/license-validator)
+
+---
+
+### Topics
+
+* How we got here
+* What you need to know
+* Existing tools and shortcomings
+* Our solution
+* **How can OSS and the Enterprise Coexist?**
+
