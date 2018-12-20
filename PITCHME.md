@@ -1,37 +1,44 @@
 # OSS Licensing
-> Everything you wanted to know but were too afraid to ask.
+> Everything you wanted to know but were too afraid to ask
 
 ---
 
-### A Major (fail) Release
+### An Unfortunate Event
 
 * 2015 - Prototype Kick-off
-* 2017 - First Production Release
+* 2017 - First Major User
 * 2018 - Production Software Audit
+
+Note:
+
+* As consultants at Collinear we help clients achieve their goals
+* We choose NodeJs for an IoT project which was a new thing in 2015
+* Client touted this as their next big service offering
+* Client ran an audit that exposed the fact that we were misusing OSS licenses
+* Everything ground to a halt, while we ripped out a module and rewrote the functionality from scratch.
+* **This was the general feeling across the organization...**
 
 +++
 
 ![](https://i.imgflip.com/2ohjvu.jpg)
 
+Note:
+
+* Betrayal of the ultimate degree.
+
 +++
 
 ### Topics
 
-* How we got here
-* What you need to know
-* Existing tools and shortcomings
-* Our solution
-* How can OSS and the Enterprise Coexist?
+* **Why Open Source?**
+* What You Need to Know
+* Existing Tools and Our Solution
+* The Moral Obligations of Using OSS?
 
----
+Note:
 
-### Topics
-
-* **How we got here**
-* What you need to know
-* Existing tools and shortcomings
-* Our solution
-* How can OSS and the Enterprise Coexist?
+* We need a good answer to the question we may get from Mgmt
+* What we learned that you need to know
 
 +++
 
@@ -146,8 +153,15 @@ Note:
 
 * --summary
 * --onlyunknown
+* Demo how we used it
 * A great tool, but I think we can improve on it.
   * 
+
++++ 
+
+### Our Solution
+
+Flow diagram of how CI/CD system can the tool and checked the licenses.
 
 +++ 
 
@@ -156,13 +170,28 @@ Note:
 
 [yea](https://github.com/CollinearGroup/license-validator)
 
+Notes:
+
+* 
+
 ---
 
 ### Topics
 
-* How we got here
-* What you need to know
-* Existing tools and shortcomings
-* Our solution
-* **How can OSS and the Enterprise Coexist?**
+* Why Open Source?
+* What you need to know (legally)
+* Existing tools and our solution
+* **The Moral Obligations of Using OSS?**
 
++++ 
+
+### The Business Models in Use Today
+
+Notes: 
+
+Open core, proprietary features (redis)
+Support and Training (redhat)
+Run the software as a service (Amazon/redis)
+Mongo?
+Is there a new one, Patreon?
+Tidelift and the BitCoin attack.
