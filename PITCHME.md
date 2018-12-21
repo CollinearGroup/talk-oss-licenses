@@ -5,17 +5,17 @@
 
 ### An Unfortunate Event
 
-* 2015 - Prototype Kick-off
-* 2017 - First Major User
-* 2018 - Production Software Audit
+* Jun, 2015 - Prototype Kick-off, enter: Collinear Group
+* Mar, 2018 - First Major User Signed Up
+* Oct, 2018 - Production Software Audit
 
 Note:
 
 * As consultants at Collinear we help clients achieve their goals
 * We choose NodeJs for an IoT project which was a new thing in 2015
-* Client touted this as their next big service offering
-* Client ran an audit that exposed the fact that we were misusing OSS licenses
-* Everything ground to a halt, while we ripped out a module and rewrote the functionality from scratch.
+* Client touted this as their next big service offering, signed customer in early 2018
+* Late 2018 - Client ran an audit that exposed the fact that we were misusing OSS licenses
+* Everything ground to a halt when we realized we couldn't release the product
 * **This was the general feeling across the organization...**
 
 +++
@@ -30,55 +30,75 @@ Note:
 
 ### Topics
 
-* **Why Open Source?**
+* **Why is Open Source?**
 * What You Need to Know
-* Existing Tools and Our Solution
+* Our Solution
 * The Moral Obligations of Using OSS?
 
 Note:
 
-* We need a good answer to the question we may get from Mgmt
-* What we learned that you need to know
+* ?? We need to take a step back and have a good answer to the question from clients/mgmt
+* We'd like to share our findings to hopefully save you some pain
 
 +++
+
+# Why is Open Source?
+
+Note:
+
+* I believe it is our responsibility as professionals to have an elementary understanding of the tools we use.
+* How many have thought to themselves "Why is OSS?"
+
++++
+
+### Free Software vs Open Source
+
+> "the freedom to run it, to study and change it, and to redistribute copies with or without changes."
+- Richard Stallman, "Why Open Source misses the point of Free Software"
+
+Note:
+
+* Open Source started as "Free Software"
+* RMS: Founded the GNU project, an unix os
+* A philosophy vs a purely practical development approach
+* **Since we are dealing with Open Source it is useful to note why others use it**
 
 ### Why Open Source?
 
 According to...
 
-* Developers: ¡free code!
 * Google: Customers want options
 * Dgraph: Adoption of new tech
 * MediaWiki: Genuine humanitarians
-* Collinear Group: To give back and showcase
+* Collinear Group: To give back and showcase our work
+* Developers: ¡free code!
 
 Note:
 
-I can't get into all the details here. It's simply interesting to note how others have approached this, so that you can frame what your involvement is going to look like.
+* **Developers being able to use "free code" without a second thought is beautiful, but is actually what got my team into trouble**
 
 +++
 
-### Open Source Life-cycle
+### Open Source Adoption Stages
 
-1. Grass-roots movement
-2. Project Management <- Us.
-3. Enterprise Management
-3. Adoption
+1. *Individual Devs*
+1. *Project*
+1. Organization
+1. Company
 
 Note:
 
-There is a lot of risk in the first two phases, so tread wisely.
-In step 3 and 4, the lawyers and leaders have typically done the hard part for you. Unless you're a roll indie.
+* You should be able to find yourself on this list, and if you are in the first two categories then you need to really understand the constraints of using OSS.
+* In step 3 and 4, the lawyers and leaders have typically done the hard part for you. Cite: American Express, approving every module.
 
 ---
 
 ### Topics
 
-* How we got here
-* **What you need to know**
-* Existing tools and shortcomings
-* Our solution
-* How can OSS and the Enterprise Coexist?
+* Why is Open Source?
+* **What You Need to Know**
+* Our Solution
+* The Moral Obligations of Using OSS?
 
 +++
 
@@ -86,7 +106,7 @@ In step 3 and 4, the lawyers and leaders have typically done the hard part for y
 
 Note:
 
-I'm starting to question if this is worth mentioning...
+* Here's a great link to go to if you don't want to remember anything I'm saying it will send you off in the right direction.
 
 +++
 
@@ -118,50 +138,57 @@ copies of this license document.
 
 Note:
 
-Our OSS Strategy has to deal with all these licenses.
+* Your OSS Strategy has to deal with all these licenses.
 
 +++
 
-### Recommendation
+### Recommendation for your next OSS contribution
 
 * Apache 2.0
-* If not, consider a Contributor License Agreement
+* If not, (like ISC) consider a Contributor License Agreement
 * If you like controversy: [Commons Clause](https://commonsclause.com/)
 
 Note:
 
+* How many people spent more than 2 seconds during an `npm init` to think "what is an ISC license"?
 * CLA - Ensures that the repo maintainer gets the rights over contributions.
 * Commons Clause - prohibits turning around and selling software like AWS did with Redis.
 * Google banned the GPL and CC'd licenses.
-* MongoDB was AGPL but just became even more restrictive.
+* MongoDB was AGPL but just became even more restrictive (any service that uses the service should be open sourced?).
 
 ---
 
 ### Topics
 
-* How we got here
-* What you need to know
-* **Existing tools**
-* How can OSS and the Enterprise Coexist?
+* Why is Open Source?
+* What You Need to Know
+* **Our Solution**
+* The Moral Obligations of Using OSS?
 
 +++
 
-### license-checker
+### Our Solution
+
+#### license-checker
 > Demo
 
 Note:
 
+* Great little tool
 * --summary
 * --onlyunknown
-* Demo how we used it
-* A great tool, but I think we can improve on it.
-  * 
 
 +++ 
 
 ### Our Solution
 
-Flow diagram of how CI/CD system can the tool and checked the licenses.
+TODO: Flow diagram of how CI/CD system can the tool and checked the licenses.
+
+Note: 
+
+* A great tool, but I think we can improve on it.
+  * Doesn't show top level dep (remember: copy-left?)
+  * Doesn't support npm custom license recommendation
 
 +++ 
 
@@ -172,16 +199,26 @@ Flow diagram of how CI/CD system can the tool and checked the licenses.
 
 Notes:
 
-* 
+* Solves above issues and requires 0 setup, is even interactive!
+* Again: this just helps you cover your butt when using OSS that your company isn't managing for you.
 
 ---
 
 ### Topics
 
-* Why Open Source?
-* What you need to know (legally)
-* Existing tools and our solution
+* Why is Open Source?
+* What You Need to Know
+* Our Solution
 * **The Moral Obligations of Using OSS?**
+
++++ 
+
+### Free like a Puppy?
+
+Note:
+
+* event-source and the controversial mgmt ("I get nothing from this")
+* instagram sold for 4 billion dollars almost 100% open source
 
 +++ 
 
