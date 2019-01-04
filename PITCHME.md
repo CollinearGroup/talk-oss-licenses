@@ -1,11 +1,11 @@
 # OSS Licensing
-> Everything you wanted to know but were too afraid to ask
+> Everything you wanted to know about licensing but were too afraid to ask
 
 ---
 
 ### An Unfortunate Event
 
-* Jun, 2015 - Prototype Kick-off, enter: Collinear Group
+* Jun, 2015 - Prototype Kick-off
 * Mar, 2018 - First Major User Signed Up
 * Oct, 2018 - Production Software Audit
 
@@ -30,14 +30,15 @@ Note:
 
 ### Topics
 
-* **Why is Open Source?**
+<!-- TODO: update all titles -->
+* **Why Open Source?**
 * What You Need to Know
 * Our Solution
 * The Moral Obligations of Using OSS?
 
 Note:
 
-* ?? We need to take a step back and have a good answer to the question from clients/mgmt
+* We need to take a step back and have a good answer to the question from clients/mgmt
 * We'd like to share our findings to hopefully save you some pain
 
 +++
@@ -53,15 +54,21 @@ Note:
 
 ### Free Software vs Open Source
 
-> "the freedom to run it, to study and change it, and to redistribute copies with or without changes."
+> Free software gives the user "the freedom to run it, to study and change it, and to redistribute copies with or without changes."
+
 - Richard Stallman, "Why Open Source misses the point of Free Software"
 
+
+<!-- TODO: fix??? -->
 Note:
 
 * Open Source started as "Free Software"
 * RMS: Founded the GNU project, an unix os
 * A philosophy vs a purely practical development approach
+* It's not just free software, it's strategic collaborative and create some common good that we can mutually benefit from. which is where licensing typically comes into play as a contract between each other on a piece of softwares intended use.
 * **Since we are dealing with Open Source it is useful to note why others use it**
+
++++ 
 
 ### Why Open Source?
 
