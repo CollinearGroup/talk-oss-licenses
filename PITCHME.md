@@ -30,11 +30,10 @@ Note:
 
 ### Topics
 
-<!-- TODO: update all titles -->
 * **Why Open Source?**
 * What You Need to Know
 * Our Solution
-* The Moral Obligations of Using OSS?
+
 
 Note:
 
@@ -43,12 +42,12 @@ Note:
 
 +++
 
-# Why is Open Source?
+# Why Open Source?
 
 Note:
 
 * I believe it is our responsibility as professionals to have an elementary understanding of the tools we use.
-* How many have thought to themselves "Why is OSS?"
+* How many of you have thought about why you use OSS?
 
 +++
 
@@ -56,16 +55,14 @@ Note:
 
 > Free software gives the user "the freedom to run it, to study and change it, and to redistribute copies with or without changes."
 
-- Richard Stallman, "Why Open Source misses the point of Free Software"
+Richard Stallman, "Why Open Source misses the point of Free Software"
 
-
-<!-- TODO: fix??? -->
 Note:
 
 * Open Source started as "Free Software"
-* RMS: Founded the GNU project, an unix os
+* Richard M.S. - Founded the GNU project, an unix os
 * A philosophy vs a purely practical development approach
-* It's not just free software, it's strategic collaborative and create some common good that we can mutually benefit from. which is where licensing typically comes into play as a contract between each other on a piece of softwares intended use.
+* Licensing is the contract that protects both of these different ideas
 * **Since we are dealing with Open Source it is useful to note why others use it**
 
 +++ 
@@ -82,6 +79,10 @@ According to...
 
 Note:
 
+* Developers want free code - event-stream (but maybe that's not why we're using OSS?)
+  * "I get nothing from this" - people were mad about this statement, but maybe OSS isn't about the "free code"
+  * Google rep at Conference noted "free like a puppy" implying responsibility even as a user
+  * Are we using licensed code responsibly?
 * **Developers being able to use "free code" without a second thought is beautiful, but is actually what got my team into trouble**
 
 +++
@@ -102,10 +103,9 @@ Note:
 
 ### Topics
 
-* Why is Open Source?
+* Why Open Source?
 * **What You Need to Know**
 * Our Solution
-* The Moral Obligations of Using OSS?
 
 +++
 
@@ -121,12 +121,20 @@ Note:
 
 ![](https://dwheeler.com/essays/floss-license-slide-image.png)
 
+Note:
+
+* The stronger restrictions apply to the left.
+* **This simple graph almost makes the problem look manageable**
+
 +++
 
 ![](https://alistapart.com/d/considering-open-source-licenses/fig1.png)
 
+* The real world is full of crazy licenses **for instance...**
+
 +++
 
+<!-- TODO: Ensure this fits on the screen -->
 ```md
 # DON'T BE A DICK PUBLIC LICENSE
 
@@ -146,6 +154,7 @@ copies of this license document.
 Note:
 
 * Your OSS Strategy has to deal with all these licenses.
+* **Obviously you want to use a safe license for your projects, probably not the DBDPL so what should you use?**
 
 +++
 
@@ -167,29 +176,17 @@ Note:
 
 ### Topics
 
-* Why is Open Source?
+* Why Open Source?
 * What You Need to Know
 * **Our Solution**
-* The Moral Obligations of Using OSS?
+
 
 +++
 
-### Our Solution
+### Our Monkey Patch
 
-#### license-checker
-> Demo
-
-Note:
-
-* Great little tool
-* --summary
-* --onlyunknown
-
-+++ 
-
-### Our Solution
-
-TODO: Flow diagram of how CI/CD system can the tool and checked the licenses.
+<!-- TODO: Flow diagram of how CI/CD system can the tool and checked the licenses. -->
+<!-- #### license-checker -->
 
 Note: 
 
@@ -199,43 +196,20 @@ Note:
 
 +++ 
 
-### license-validator
-> Demo
+### Our Solution
+> license-validator
 
-[yea](https://github.com/CollinearGroup/license-validator)
+Note:
 
-Notes:
-
-* Solves above issues and requires 0 setup, is even interactive!
+* Demo
+* Open `oasgraph` and run validator
+* Solves above issues and requires 0 setup
 * Again: this just helps you cover your butt when using OSS that your company isn't managing for you.
 
 ---
 
-### Topics
+# Questions?
 
-* Why is Open Source?
-* What You Need to Know
-* Our Solution
-* **The Moral Obligations of Using OSS?**
+---
 
-+++ 
-
-### Free like a Puppy?
-
-Note:
-
-* event-source and the controversial mgmt ("I get nothing from this")
-* instagram sold for 4 billion dollars almost 100% open source
-
-+++ 
-
-### The Business Models in Use Today
-
-Notes: 
-
-Open core, proprietary features (redis)
-Support and Training (redhat)
-Run the software as a service (Amazon/redis)
-Mongo?
-Is there a new one, Patreon?
-Tidelift and the BitCoin attack.
+# Thank You!
