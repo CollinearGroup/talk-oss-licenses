@@ -26,7 +26,7 @@ Note:
 
 * Betrayal of the ultimate degree.
 
-+++
+---
 
 ### Topics
 
