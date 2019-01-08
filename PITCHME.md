@@ -183,16 +183,45 @@ Note:
 
 +++
 
-### Our Monkey Patch
+### A First Attempt
 
-<!-- TODO: Flow diagram of how CI/CD system can the tool and checked the licenses. -->
-<!-- #### license-checker -->
+![](/assets/img/license-checker-summary.png)
 
-Note: 
+Note:
 
-* A great tool, but I think we can improve on it.
-  * Doesn't show top level dep (remember: copy-left?)
-  * Doesn't support npm custom license recommendation
+* `licenses-checker` available to install and run
+* **One of the licenses here was a WTFPL**
+
++++
+
+![](/assets/img/wtfpl-expand-template.png)
+
+Note:
+
++++
+
+![](/assets/img/expand-temp-dep.png)
+
+Note:
+
+* Since it's grunt, a dev dep, we don't actually need to worry about it.
+
++++
+
+![](/assets/img/gitlab-ci.png)
+
+Note:
+
+* To start putting this together we ran license checker like so
+
++++
+
+![](/assets/img/check-licenses_js.png)
+
+Note:
+
+* A custom script managed which licenses AND modules to validate, returning code 0 or 1 
+* **While this works, it's a bit of manual setup and discovery and we wanted to make it easier for ourselves**
 
 +++ 
 
@@ -205,6 +234,7 @@ Note:
 * Open `oasgraph` and run validator
 * Solves above issues and requires 0 setup
 * Again: this just helps you cover your butt when using OSS that your company isn't managing for you.
+* Limitations: NOn-SPDX licenses and NPM recommendation
 
 ---
 
