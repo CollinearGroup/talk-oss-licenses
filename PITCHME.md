@@ -1,6 +1,12 @@
 # OSS Licensing
 > Everything you wanted to know about licensing but were too afraid to ask
 
+Note:
+
+* My name is... I have some friends here...
+* We work for Collinear Group and do software consulting mainly for enterprises. Mainly the aviation industry.
+* **As a consultant for an enterprise company, hopefully you'll find some value in us sharing some recent licensing experiences.**
+
 ---
 
 ### An Unfortunate Event
@@ -11,10 +17,9 @@
 
 Note:
 
-* As consultants at Collinear we help clients achieve their goals
-* We choose NodeJs for an IoT project which was a new thing in 2015
-* Client touted this as their next big service offering, signed customer in early 2018
-* Late 2018 - Client ran an audit that exposed the fact that we were misusing OSS licenses
+* Jun, 2015: We choose NodeJs for an IoT project which was a new thing in 
+* Mar, 2018: Client touted this as their next big service offering
+* Late 2018: Client ran an audit that exposed the fact that we were misusing OSS licenses
 * Everything ground to a halt when we realized we couldn't release the product
 * **This was the general feeling across the organization...**
 
@@ -34,11 +39,9 @@ Note:
 * What You Need to Know
 * Our Solution
 
-
 Note:
 
 * We need to take a step back and have a good answer to the question from clients/mgmt
-* We'd like to share our findings to hopefully save you some pain
 
 +++
 
@@ -46,7 +49,6 @@ Note:
 
 Note:
 
-* I believe it is our responsibility as professionals to have an elementary understanding of the tools we use.
 * How many of you have thought about why you use OSS?
 
 +++
@@ -79,11 +81,11 @@ According to...
 
 Note:
 
-* Developers want free code - event-stream (but maybe that's not why we're using OSS?)
-  * "I get nothing from this" - people were mad about this statement, but maybe OSS isn't about the "free code"
+* Developers want "free code"
+  * "I get nothing from this" - people were mad about this statement when their "free code" ended up looking like it would hurt them.
   * Google rep at Conference noted "free like a puppy" implying responsibility even as a user
-  * Are we using licensed code responsibly?
-* **Developers being able to use "free code" without a second thought is beautiful, but is actually what got my team into trouble**
+  * We are not actually using "free code" we are using "open sourced" code.
+* **Developers being able to use OSS without a second thought is beautiful, but is actually what got my team into trouble**
 
 +++
 
@@ -148,7 +150,8 @@ copies of this license document.
 > DON'T BE A DICK PUBLIC LICENSE
 > TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
-1. Do whatever you like with the original work, just don't be a dick.
+1. Do whatever you like with the original work,
+   just don't be a dick.
 ```
 
 Note:
