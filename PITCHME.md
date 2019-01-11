@@ -17,8 +17,8 @@ Note:
 
 Note:
 
-* Jun, 2015: We choose NodeJs for an IoT project which was a new thing in 
-* Mar, 2018: Client touted this as their next big service offering
+* Jun 2015: We choose NodeJs for an IoT project which was a new thing in 
+* Mar 2018: Client touted this as their next big service offering
 * Late 2018: Client ran an audit that exposed the fact that we were misusing OSS licenses
 * Everything ground to a halt when we realized we couldn't release the product
 * **This was the general feeling across the organization...**
@@ -136,7 +136,6 @@ Note:
 
 +++
 
-<!-- TODO: Ensure this fits on the screen -->
 ```md
 # DON'T BE A DICK PUBLIC LICENSE
 
@@ -229,7 +228,8 @@ Note:
 +++ 
 
 ### Our Solution
-> license-validator
+
+![](/assets/img/check-licenses_js.png)
 
 Note:
 
