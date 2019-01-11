@@ -229,7 +229,7 @@ Note:
 
 ### Our Solution
 
-![](/assets/img/check-licenses_js.png)
+![](/assets/img/license-validator.png)
 
 Note:
 
